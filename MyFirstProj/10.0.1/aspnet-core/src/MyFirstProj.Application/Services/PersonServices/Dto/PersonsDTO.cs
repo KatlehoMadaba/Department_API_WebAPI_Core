@@ -15,6 +15,6 @@ namespace MyFirstProj.Services.PersonServices.DTO
         public string FirstName { get; set; } 
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
-        public User User { get; set; }
+        public Users.Dto.UserDto User { get; set; }
     }
 }

@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MyFirstProj",
+    "\\MyFirstProj\\10.0.1",
+    "\\MyFirstProj\\10.0.1\\aspnet-core",
+    "\\MyFirstProj\\10.0.1\\aspnet-core\\src",
+    "\\MyFirstProj\\10.0.1\\aspnet-core\\src\\MyFirstProj.Application",
+    "\\MyFirstProj\\10.0.1\\aspnet-core\\src\\MyFirstProj.Application\\Services",
+    "\\MyFirstProj\\10.0.1\\aspnet-core\\src\\MyFirstProj.Application\\Services\\DepartmentServices",
+    "\\MyFirstProj\\10.0.1\\_screenshots"
   ],
-  "SelectedNode": "\\C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 8\\DepartmentApi",
+  "SelectedNode": "\\MyFirstProj\\10.0.1\\aspnet-core\\src\\MyFirstProj.Application\\Services\\DepartmentServices\\DepartAppService.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -5,12 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Abp.Application.Services;
 using MyFirstProj.Domain;
+using MyFirstProj.Services.PersonServices.Dto;
 using MyFirstProj.Services.PersonServices.DTO;
 
 namespace MyFirstProj.Services.PersonServices
 {
     interface IPersonAppService:IApplicationService
     {
-        Task<PersonsDTO> CreatePersonAsync(Person input);
+        Task<PersonsDTO> CreatePersonAsync(PersonRequestDto input);
+        Task<List<PersonsDTO>> Getall();
     }
 }
